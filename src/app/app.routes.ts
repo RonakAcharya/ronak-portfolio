@@ -4,11 +4,12 @@ import { DesktopComponent } from './desktop/desktop/desktop.component';
 export const routes: Routes = [
     {
         path:'',
-        redirectTo:'desktop',
-        pathMatch:'full'
+        redirectTo:'',
+        pathMatch:'full',
+        component:DesktopComponent
     },
     {
-        path:'desktop',
+        path:'',
         component:DesktopComponent
     },
 ];
